@@ -4,4 +4,9 @@
         <attr name="border_color" format="color"/>
         <attr name="border_width" format="dimension"/>
     </declare-styleable>
+
+    <declare-styleable name="CompoundView">
+        <attr name="card_shadow_color" format="color"/>
+        <attr name="card_shadow_width" format="dimension"/>
+    </declare-styleable>
 </resources>

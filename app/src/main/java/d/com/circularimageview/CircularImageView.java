@@ -1,4 +1,4 @@
-package d.com.mycustomview;
+package d.com.circularimageview;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -111,6 +111,10 @@ public class CircularImageView extends ImageView {
             setBorderWidth(typedArray.getDimension(R.styleable.CircularImageView_border_width, mBorderWidth));
 
             typedArray.recycle();
+
+            //Initializing before onDraw
+            mPaint = new Paint();
+            mArcPaint = new Paint();
         }
     }
 
@@ -178,13 +182,11 @@ public class CircularImageView extends ImageView {
 
     private void paintCircularImageView() {
         //Setting border
-        mArcPaint = new Paint();
         mArcPaint.setColor(mBorderColor);
         mArcPaint.setStrokeWidth(mBorderWidth);
         mArcPaint.setAntiAlias(true);
 
         //Setting ImageView
-        mPaint = new Paint();
         mPaint.setAntiAlias(true);
     }
 }

@@ -1,4 +1,4 @@
-package d.com.mycustomview;
+package d.com.circularimageview;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
