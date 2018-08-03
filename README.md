@@ -5,7 +5,7 @@ Image zooming and alpha value changes have been tested as well.
 Can work with a custom drawable, Picasso Drawable or a Glide Target drawable.
 
 # Usage
-<com.laatonWalaBhoot.CircleImageView
+```<com.laatonWalaBhoot.CircleImageView
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/image"
     android:layout_width="48dp"
@@ -13,6 +13,7 @@ Can work with a custom drawable, Picasso Drawable or a Glide Target drawable.
     android:src="@drawable/image"
     app:border_width="3dp"
     app:border_color="#D3D3D3"/>
+```
 
 # Limitations
 Cannot add touch inside border.
