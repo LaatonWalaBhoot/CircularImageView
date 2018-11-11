@@ -1,7 +1,7 @@
 # CircularImageView
 
-![alt text](https://u.imageresize.org/v2/98c55aad-4a87-42c3-b934-e8c0e6ad71fc.png)
-![alt text](https://u.imageresize.org/v2/a1441012-6f11-447b-8e8e-3112642a7c6f.png)
+![alt text](98c55aad-4a87-42c3-b934-e8c0e6ad71fc.png)
+![alt text](a1441012-6f11-447b-8e8e-3112642a7c6f.png)
 
 Rounded ImageView with additional border. Works fine with Recycler views.
 
